@@ -1,5 +1,8 @@
-getty@.service
-greetd.service
-NetworkManager-dispatcher.service
-NetworkManager-wait-online.service
-NetworkManager.service
+bluetooth.service                  enabled disabled
+getty@.service                     enabled enabled
+greetd.service                     enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+systemd-userdbd.socket             enabled enabled
+remote-fs.target                   enabled enabled

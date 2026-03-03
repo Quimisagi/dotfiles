@@ -10,4 +10,10 @@ zstyle :compinstall filename '/home/quimisagi/.zshrc'
 
 autoload -Uz compinit
 compinit
+#
 # End of lines added by compinstall
+
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias bye='shutdown now'           # Immediate Shutdown
+alias reboot='systemctl reboot'    # Restart
+alias zzz='systemctl suspend'      # Sleep / Suspend
