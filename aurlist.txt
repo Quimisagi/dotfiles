@@ -1,2 +1,16 @@
+elephant
+elephant-clipboard
+elephant-desktopapplications
+elephant-files
+elephant-providerlist
+elephant-runner
+gradia
+mpvpaper
+pwvucontrol
+pyprland
+python312
+ttf-league-gothic
+ttf-phosphor-icons
+walker-git
 yay
 yay-debug
