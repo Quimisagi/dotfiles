@@ -4,5 +4,6 @@ greetd.service                     enabled disabled
 NetworkManager-dispatcher.service  enabled disabled
 NetworkManager-wait-online.service enabled disabled
 NetworkManager.service             enabled disabled
+systemd-timesyncd.service          enabled enabled
 systemd-userdbd.socket             enabled enabled
 remote-fs.target                   enabled enabled
