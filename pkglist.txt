@@ -55,7 +55,6 @@ ttf-roboto
 ttf-roboto-mono
 unrar
 vim
-waybar
 which
 wl-clip-persist
 wlsunset

@@ -1,3 +1,5 @@
+ags-hyprpanel-git
+brave-bin
 elephant
 elephant-clipboard
 elephant-desktopapplications
