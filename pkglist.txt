@@ -5,6 +5,7 @@ bat
 blueman
 bluez-utils
 breeze-icons
+brightnessctl
 chafa
 easyeffects
 efibootmgr
