@@ -1,4 +1,5 @@
 alsa-utils
+awww
 base
 base-devel
 bat
@@ -18,6 +19,7 @@ greetd
 grub
 hyprland
 hyprlauncher
+hyprlock
 kitty
 lf
 libnotify
@@ -25,6 +27,7 @@ linux
 linux-firmware
 lxappearance
 mako
+matugen
 mpv
 neovim
 network-manager-applet
