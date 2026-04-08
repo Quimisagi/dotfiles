@@ -17,6 +17,10 @@ github-cli
 gpu-screen-recorder
 greetd
 grub
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
 hyprland
 hyprlauncher
 hyprlock
@@ -41,8 +45,10 @@ poppler
 power-profiles-daemon
 protobuf
 python-pipx
+qt6-5compat
 qt6-shadertools
 quickshell
+sddm
 sudo
 tesseract-data-chi_sim
 tesseract-data-chi_tra
