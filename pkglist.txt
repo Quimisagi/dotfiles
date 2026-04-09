@@ -24,6 +24,7 @@ gst-plugins-ugly
 hyprland
 hyprlauncher
 hyprlock
+hyprpaper
 kitty
 lf
 libnotify
@@ -45,6 +46,7 @@ poppler
 power-profiles-daemon
 protobuf
 python-pipx
+python-pywal
 qt6-5compat
 qt6-shadertools
 quickshell
