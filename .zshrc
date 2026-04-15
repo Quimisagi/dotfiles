@@ -17,3 +17,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias bye='shutdown now'           # Immediate Shutdown
 alias reboot='systemctl reboot'    # Restart
 alias zzz='systemctl suspend'      # Sleep / Suspend
+
+lf() {
+    cd "$(command lf -print-last-dir 2>/dev/null || echo .)"
+}
