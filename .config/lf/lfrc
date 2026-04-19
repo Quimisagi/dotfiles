@@ -7,14 +7,52 @@ set shellopts '-eu'
 set ifs "\n"
 set scrolloff 10
 
-define open ${{
+cmd open ${{
     case $(file --mime-type "$f" -b) in
-        text/*|application/json|inode/x-empty) nvim "$f";;
-        *) xdg-open "$f" ;;
+        text/*|application/json|inode/x-empty) 
+            kitty nvim "$f" &
+            ;;
+        *) 
+            xdg-open "$f" > /dev/null 2>&1 & 
+            ;;
     esac
 }}
+
+cmd extract ${{
+    # Define the logic in a variable to keep the kitty call clean
+    COMMAND="
+        set -f
+        archive='${f%.*}'
+        mkdir -p \"\$archive\"
+        case '$f' in
+            *.tar.bz|*.tar.bz2|*.tbz|*.tbz2) tar xjvf '$f' -C \"\$archive\";;
+            *.tar.gz|*.tgz) tar xzvf '$f' -C \"\$archive\";;
+            *.tar.xz|*.txz) tar xJvf '$f' -C \"\$archive\";;
+            *.zip) unzip -O gbk '$f' -d \"\$archive\";;
+            *.rar) unrar x '$f' \"\$archive\";;
+            *.7z) 7z x '$f' -o\"\$archive\";;
+        esac
+        echo 'Done! Press any key to close.'; read -n 1
+    "
+    kitty sh -c "$COMMAND"
+}}
+# compress current file or selected files with zip
+cmd zip ${{
+    set -f
+    mkdir $1
+    cp -r $fx $1
+    zip -r $1.zip $1
+    rm -rf $1
+}}
+
+cmd trash %trash-put $fx
+
 map W $setsid -f $TERMINAL >/dev/null 2>&1
 map U $printf "%s" "$fx" | xclip -selection clipboard
 map u $printf "%s" "$fx" | sed 's/.*\///' | xclip -selection clipboard
-
 map . set hidden!
+map l open
+map <enter> open
+map X extract
+map C push :zip<space>
+map D trash

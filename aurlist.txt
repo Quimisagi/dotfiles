@@ -16,3 +16,4 @@ ttf-phosphor-icons
 walker-git
 yay
 yay-debug
+yt-x-git

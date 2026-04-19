@@ -21,6 +21,7 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
+htop
 hyprland
 hyprlauncher
 hyprlock
@@ -59,6 +60,7 @@ tesseract-data-kor
 tesseract-data-lat
 tesseract-data-spa
 tmux
+trash-cli
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 ttf-liberation
