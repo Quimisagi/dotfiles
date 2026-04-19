@@ -522,5 +522,6 @@
   "theme.bar.buttons.modules.cpuTemp.icon": "#fab387",
   "theme.bar.buttons.modules.cpuTemp.text": "#fab387",
   "theme.bar.buttons.modules.cpuTemp.border": "#fab387",
-  "theme.osd.border.color": "#8ff0a4"
+  "theme.osd.border.color": "#8ff0a4",
+  "menus.dashboard.powermenu.avatar.image": "/home/quimisagi/Pictures/1341701-1100437316.jpg"
 }

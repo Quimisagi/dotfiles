@@ -12,6 +12,9 @@ cmd open ${{
         text/*|application/json|inode/x-empty) 
             kitty nvim "$f" &
             ;;
+        image/*)
+            feh --scale-down --auto-zoom "$f" &
+        ;;
         *) 
             xdg-open "$f" > /dev/null 2>&1 & 
             ;;

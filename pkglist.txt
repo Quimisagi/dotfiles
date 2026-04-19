@@ -10,6 +10,7 @@ brightnessctl
 chafa
 easyeffects
 efibootmgr
+feh
 ffmpegthumbnailer
 firefox
 git
@@ -35,6 +36,7 @@ lxappearance
 mako
 matugen
 mpv
+ncdu
 neovim
 network-manager-applet
 noto-fonts
@@ -42,6 +44,7 @@ noto-fonts-cjk
 noto-fonts-emoji
 otf-font-awesome
 papirus-icon-theme
+pcmanfm
 pipewire
 poppler
 power-profiles-daemon
@@ -59,6 +62,7 @@ tesseract-data-jpn
 tesseract-data-kor
 tesseract-data-lat
 tesseract-data-spa
+timeshift
 tmux
 trash-cli
 ttf-dejavu

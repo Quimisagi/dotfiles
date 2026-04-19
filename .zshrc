@@ -116,7 +116,7 @@ bindkey -v
 zstyle :compinstall filename '/home/quimisagi/.zshrc'
 
 autoload -Uz compinit
-compinit
+# compinit
 
 export EDITOR="nvim"
 #
@@ -126,6 +126,8 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias bye='shutdown now'           # Immediate Shutdown
 alias reboot='systemctl reboot'    # Restart
 alias zzz='systemctl suspend'      # Sleep / Suspend
+alias espacio='ncdu'
+alias archivos='pcmanfm'
 
 lf() {
     cd "$(command lf -print-last-dir 2>/dev/null || echo .)"
