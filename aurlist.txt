@@ -13,7 +13,7 @@ pyprland
 python312
 ttf-league-gothic
 ttf-phosphor-icons
-walker-git
+walker
 yay
 yay-debug
 yt-x-git

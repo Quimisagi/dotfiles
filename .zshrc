@@ -128,6 +128,7 @@ alias reboot='systemctl reboot'    # Restart
 alias zzz='systemctl suspend'      # Sleep / Suspend
 alias espacio='ncdu'
 alias archivos='pcmanfm'
+alias config_hypr='nvim ~/.config/hypr/hyprland.conf'
 
 lf() {
     cd "$(command lf -print-last-dir 2>/dev/null || echo .)"

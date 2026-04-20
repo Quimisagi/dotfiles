@@ -8,8 +8,12 @@ bluez-utils
 breeze-icons
 brightnessctl
 chafa
+discord
 easyeffects
 efibootmgr
+fcitx5
+fcitx5-configtool
+fcitx5-mozc
 feh
 ffmpegthumbnailer
 firefox
@@ -28,6 +32,7 @@ hyprlauncher
 hyprlock
 hyprpaper
 kitty
+kvantum
 lf
 libnotify
 linux
@@ -42,6 +47,8 @@ network-manager-applet
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+nwg-look
+openbsd-netcat
 otf-font-awesome
 papirus-icon-theme
 pcmanfm
@@ -51,10 +58,13 @@ power-profiles-daemon
 protobuf
 python-pipx
 python-pywal
+qt5ct
 qt6-5compat
 qt6-shadertools
 quickshell
 sddm
+speedtest-cli
+steam
 sudo
 tesseract-data-chi_sim
 tesseract-data-chi_tra
