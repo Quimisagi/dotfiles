@@ -7,7 +7,10 @@ blueman
 bluez-utils
 breeze-icons
 brightnessctl
+btop
 chafa
+cmake
+cpio
 discord
 easyeffects
 efibootmgr
@@ -18,6 +21,7 @@ feh
 ffmpegthumbnailer
 firefox
 git
+git-delta
 github-cli
 gpu-screen-recorder
 greetd
@@ -37,6 +41,7 @@ lf
 libnotify
 linux
 linux-firmware
+lsd
 lxappearance
 mako
 matugen
@@ -62,6 +67,7 @@ qt5ct
 qt6-5compat
 qt6-shadertools
 quickshell
+ripgrep
 sddm
 speedtest-cli
 steam
@@ -89,4 +95,5 @@ wlsunset
 zbar
 zenity
 zip
+zoxide
 zsh

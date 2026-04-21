@@ -1,8 +1,31 @@
 [pyprland]
-plugins = ["scratchpads"]
+plugins = ["scratchpads", "layout_center", "shortcuts_menu"]
 
 [scratchpads.term]
 animation = "fromTop"
 command = "kitty --class scratchpad"
 class = "scratchpad"
 size = "75% 60%"
+
+[scratchpads.browser]
+animation = "fromTop"
+command = "min"
+class = "Min"
+size = "80% 70%"
+
+
+[layout_center]
+margin = 60
+offset = [0, 30]
+next = "movefocus r"
+prev = "movefocus l"
+next2 = "movefocus d"
+prev2 = "movefocus u"
+
+[shortcuts_menu]
+entries = [
+  "Browser|$BROWSER",
+  "Terminal|kitty",
+  "File Manager|thunar",
+  "Settings|kitty -e nmtui",
+]

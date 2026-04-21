@@ -129,9 +129,16 @@ alias zzz='systemctl suspend'      # Sleep / Suspend
 alias espacio='ncdu'
 alias archivos='pcmanfm'
 alias config_hypr='nvim ~/.config/hypr/hyprland.conf'
+alias ls='lsd'
+alias cat='bat'
+alias find='fd'
+alias grep='rg'
 
 lf() {
     cd "$(command lf -print-last-dir 2>/dev/null || echo .)"
 }
 
 eval "$(starship init zsh)"
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
