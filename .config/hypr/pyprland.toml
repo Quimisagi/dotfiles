@@ -6,16 +6,18 @@ animation = "fromTop"
 command = "kitty --class scratchpad"
 class = "scratchpad"
 size = "75% 60%"
+unfocus = "hide"
 
 [scratchpads.browser]
 animation = "fromTop"
 command = "min"
 class = "Min"
 size = "80% 70%"
+unfocus = "hide"
 
 
 [layout_center]
-margin = 60
+margin = 50
 offset = [0, 30]
 next = "movefocus r"
 prev = "movefocus l"
@@ -29,3 +31,6 @@ entries = [
   "File Manager|thunar",
   "Settings|kitty -e nmtui",
 ]
+
+# [scratchpads]
+# auto_close_empty = true
