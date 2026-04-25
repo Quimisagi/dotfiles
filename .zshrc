@@ -1,49 +1,26 @@
-# Start configuration added by Zim Framework install {{{
-#
-# User configuration sourced by interactive shells
-#
+for file in ~/.zsh/*.zsh; do
+  source "$file"
+done
 
-# -----------------
+# fastfetch
+
 # Zsh configuration
 # -----------------
-
 #
 # History
 #
-
 # Remove older command from the history if a duplicate is to be added.
 setopt HIST_IGNORE_ALL_DUPS
-
 #
 # Input/output
 #
-
-# Set editor default keymap to emacs (`-e`) or vi (`-v`)
-bindkey -e
-
 # Prompt for spelling correction of commands.
 #setopt CORRECT
-
 # Customize spelling correction prompt.
 #SPROMPT='zsh: correct %F{red}%R%f to %F{green}%r%f [nyae]? '
-
 # Remove path separator from WORDCHARS.
+
 WORDCHARS=${WORDCHARS//[\/]}
-
-# --------------------
-# Module configuration
-# --------------------
-
-#
-# git
-#
-
-# Set a custom prefix for the generated aliases. The default prefix is 'G'.
-#zstyle ':zim:git' aliases-prefix 'g'
-
-#
-# input
-#
 
 # Append `../` to your input for each `.` you type after an initial `..`
 #zstyle ':zim:input' double-dot-expand yes
@@ -105,7 +82,6 @@ fi
 source ${ZIM_HOME}/init.zsh
 # }}} End configuration added by Zim Framework install
 
-# Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
@@ -121,26 +97,11 @@ autoload -Uz compinit
 export EDITOR="nvim"
 #
 # End of lines added by compinstall
-
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias bye='shutdown now'           # Immediate Shutdown
-alias reboot='systemctl reboot'    # Restart
-alias zzz='systemctl suspend'      # Sleep / Suspend
-alias espacio='ncdu'
-alias archivos='pcmanfm'
-alias config_hypr='nvim ~/.config/hypr/hyprland.conf'
-alias ls='lsd'
-alias cat='bat'
-alias find='fd'
-alias grep='rg'
-
-lf() {
-    cd "$(command lf -print-last-dir 2>/dev/null || echo .)"
-}
-
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
 source /usr/share/fzf/completion.zsh
 source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
 
-fastfetch
+source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

@@ -47,6 +47,7 @@ lxappearance
 mako
 matugen
 mpv
+mpv-mpris
 ncdu
 neovim
 network-manager-applet
