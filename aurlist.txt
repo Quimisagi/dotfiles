@@ -7,7 +7,9 @@ elephant-files
 elephant-providerlist
 elephant-runner
 gradia
+hyprshot-gui
 hyprsome-git
+kando-bin
 min
 mpvpaper
 pwvucontrol

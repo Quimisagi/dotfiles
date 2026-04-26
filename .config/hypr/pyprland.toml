@@ -11,12 +11,12 @@ lazy = "true"
 allow_special_workspaces = true
 
 
-# [scratchpads.browser]
-# animation = "fromTop"
-# command = "min"
-# class = "Min"
-# size = "80% 70%"
-# unfocus = "hide"
+[scratchpads.browser]
+animation = "fromTop"
+command = "min"
+class = "Min"
+size = "80% 70%"
+unfocus = "hide"
 
 
 [layout_center]

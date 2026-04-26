@@ -31,7 +31,6 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
-htop
 hyprland
 hyprlauncher
 hyprlock
@@ -43,7 +42,6 @@ libnotify
 linux
 linux-firmware
 lsd
-lxappearance
 mako
 matugen
 mpv
@@ -55,6 +53,7 @@ noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
 nwg-look
+obs-studio
 openbsd-netcat
 otf-font-awesome
 papirus-icon-theme
