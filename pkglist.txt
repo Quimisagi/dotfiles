@@ -52,6 +52,7 @@ network-manager-applet
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
+nwg-dock-hyprland
 nwg-look
 obs-studio
 openbsd-netcat

@@ -409,7 +409,7 @@
   "theme.bar.buttons.dashboard.background": "#21252b",
   "theme.bar.buttons.text": "#61afef",
   "theme.bar.buttons.hover": "#3e4451",
-  "theme.bar.buttons.icon_background": "#21252b",
+  "theme.bar.buttons.icon_background": "#272c34",
   "theme.osd.label": "#61afef",
   "theme.osd.icon": "#282c34",
   "theme.osd.bar_overflow_color": "#e06c75",
