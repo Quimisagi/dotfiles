@@ -10,8 +10,10 @@ gradia
 hyprshot-gui
 hyprsome-git
 kando-bin
+limitcpu
 min
 mpvpaper
+nchat
 pwvucontrol
 pyprland
 python312

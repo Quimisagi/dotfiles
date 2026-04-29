@@ -10,7 +10,6 @@ unfocus = "hide"
 lazy = "true"
 allow_special_workspaces = true
 
-
 [scratchpads.browser]
 animation = "fromTop"
 command = "min"
@@ -19,21 +18,19 @@ size = "80% 70%"
 unfocus = "hide"
 
 
+[scratchpads.line]
+animation = "fromTop"
+command = "brave --app=chrome-extension://ophjlpahpchlmihnnnihgmmeilfjmjjc/index.html"
+class = "brave-ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html-Default"
+size = "70% 60%"
+unfocus = "hide"
+
+
 [layout_center]
-margin = 50
+margin = 30
 offset = [0, 30]
 next = "movefocus r"
 prev = "movefocus l"
 next2 = "movefocus d"
 prev2 = "movefocus u"
 
-# [shortcuts_menu]
-# entries = [
-#   "Browser|$BROWSER",
-#   "Terminal|kitty",
-#   "File Manager|thunar",
-#   "Settings|kitty -e nmtui",
-# ]
-
-# [scratchpads]
-# auto_close_empty = true

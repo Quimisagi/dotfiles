@@ -31,9 +31,9 @@ gst-plugins-bad
 gst-plugins-base
 gst-plugins-good
 gst-plugins-ugly
+hypridle
 hyprland
 hyprlauncher
-hyprlock
 hyprpaper
 kitty
 kvantum
@@ -90,10 +90,12 @@ ttf-nerd-fonts-symbols
 ttf-roboto
 ttf-roboto-mono
 unrar
+unzip
 vim
 which
 wl-clip-persist
 wlsunset
+ydotool
 zbar
 zenity
 zip

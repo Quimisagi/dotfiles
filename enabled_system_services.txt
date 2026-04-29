@@ -7,3 +7,4 @@ NetworkManager.service             enabled disabled
 systemd-timesyncd.service          enabled enabled
 systemd-userdbd.socket             enabled enabled
 remote-fs.target                   enabled enabled
+arch-update.timer                  enabled disabled
