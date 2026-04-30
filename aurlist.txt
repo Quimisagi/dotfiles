@@ -1,5 +1,6 @@
 ags-hyprpanel-git
 brave-bin
+brave-origin-nightly-bin
 elephant
 elephant-clipboard
 elephant-desktopapplications
@@ -12,6 +13,7 @@ hyprsome-git
 kando-bin
 limitcpu
 min
+min-browser-bin
 mpvpaper
 nchat
 pwvucontrol

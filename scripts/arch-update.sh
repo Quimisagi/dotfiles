@@ -54,12 +54,10 @@ TOTAL_UPDATES=$((REPO_COUNT + AUR_COUNT))
 if [ "$TOTAL_UPDATES" -gt 0 ]; then
     log "Found $TOTAL_UPDATES updates. Sending notification..."
     
-    # Identify the active user to send a desktop notification
-    USER_NAME=$(who | awk '{print $1}' | head -n 1)
-    USER_ID=$(id -u "$USER_NAME")
+    # Get the DBUS address for the current user session
+    export DBUS_SESSION_BUS_ADDRESS="unix:path=/run/user/$(id -u)/bus"
     
-    # Send notification (requires libnotify installed)
-    sudo -u "$USER_NAME" DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/"$USER_ID"/bus \
+    # Send notification directly as the current user
     notify-send -u critical -i software-update-available \
     "Arch Updates Ready" "There are $TOTAL_UPDATES updates waiting. Run 'sudo pacman -Syu' to finish."
 else

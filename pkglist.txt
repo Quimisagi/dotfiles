@@ -57,6 +57,7 @@ nwg-look
 obs-studio
 openbsd-netcat
 otf-font-awesome
+pacman-contrib
 papirus-icon-theme
 pcmanfm
 pipewire
