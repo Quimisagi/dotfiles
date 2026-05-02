@@ -12,6 +12,7 @@ chafa
 cmake
 cpio
 discord
+dolphin-emu
 easyeffects
 efibootmgr
 fastfetch

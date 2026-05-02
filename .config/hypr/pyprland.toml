@@ -12,19 +12,22 @@ allow_special_workspaces = true
 
 [scratchpads.browser]
 animation = "fromTop"
-command = "min"
-class = "Min"
+command = "min-browser"
+class = "electron"
+title = "Min"
+match_by = "title"
 size = "80% 70%"
 unfocus = "hide"
 
-
 [scratchpads.line]
 animation = "fromTop"
-command = "brave --app=chrome-extension://ophjlpahpchlmihnnnihgmmeilfjmjjc/index.html"
+command = "brave-origin-nightly --app=chrome-extension://ophjlpahpchlmihnnnihgmmeilfjmjjc/index.html"
 class = "brave-ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html-Default"
+match_by = "title"
+title = "LINE"
 size = "70% 60%"
 unfocus = "hide"
-
+lazy = false
 
 [layout_center]
 margin = 30

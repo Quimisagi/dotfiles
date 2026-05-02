@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily backup of Arch package lists and services
+
+[Service]
+Type=oneshot
+ExecStart=/home/quimisagi/scripts/update_configs.sh
+
+[Install]
+WantedBy=default.target

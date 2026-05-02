@@ -1,0 +1,12 @@
+[Unit]
+Description=Elephant
+After=graphical-session.target
+ConditionEnvironment=WAYLAND_DISPLAY
+
+[Service]
+Type=simple
+ExecStart=elephant
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

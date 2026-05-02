@@ -3,6 +3,9 @@
 # Arch Linux Background Prep Script
 # Purpose: Syncs repos and downloads packages safely. 
 # Triggers a notification for the user to finish the update manually.
+#
+#
+sleep 5.0
 
 # Configuration
 LOG_DIR="/var/log/arch-update"

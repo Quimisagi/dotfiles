@@ -1,6 +1,6 @@
 ags-hyprpanel-git
-brave-bin
 brave-origin-nightly-bin
+downgrade
 elephant
 elephant-clipboard
 elephant-desktopapplications
@@ -12,16 +12,16 @@ hyprshot-gui
 hyprsome-git
 kando-bin
 limitcpu
-min
 min-browser-bin
 mpvpaper
 nchat
 pwvucontrol
-pyprland
+pyprland-git
 python312
 ttf-league-gothic
 ttf-phosphor-icons
 walker
+wayle-bin
 yay
 yay-debug
 yt-x-git

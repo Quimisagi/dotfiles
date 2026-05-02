@@ -1,0 +1,28 @@
+window {
+    background: rgba(40, 44, 52, 0.85); /* Dark translucent base */
+    border-radius: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#box {
+    padding: 6px;
+}
+
+button {
+    background: transparent;
+    border: none;
+    border-radius: 12px;
+    padding: 8px;
+    margin-top: 4px;      /* Add margin to the top by default */
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 0px;      /* Remove top margin on hover */
+    margin-bottom: 4px;   /* Add it to the bottom to "push" the icon up */
+}
+

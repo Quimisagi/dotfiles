@@ -1,0 +1,85 @@
+[general]
+font-sans = "Noto Serif Todhri"
+
+[bar]
+scale = 0.699999988079071
+padding-ends = 1.0
+module-gap = 0.30000001192092896
+border-location = "bottom"
+border-width = 0
+border-color = "accent"
+shadow = "floating"
+button-variant = "basic"
+button-label-padding = 0.949999988079071
+button-rounding = "md"
+button-gap = 1.399999976158142
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "dashboard",
+    "clock",
+    "notifications",
+    "window-title",
+]
+center = [
+    "hyprland-workspaces",
+    "systray",
+]
+right = [
+    "battery",
+    "bluetooth",
+    "network",
+    "volume",
+]
+
+[styling]
+matugen-contrast = -0.7407407407407407
+pywal-saturation = 0.0
+pywal-contrast = 1.0
+
+[modules.battery]
+border-show = true
+
+[modules.bluetooth]
+border-show = true
+label-show = false
+
+[modules.clock]
+format = "%I:%M %p"
+icon-name = "ld-clock-symbolic"
+border-show = true
+
+[modules.dashboard]
+border-show = true
+right-click = """
+echo "open" | nc -U /run/user/1000/walker/walker.sock
+"""
+dropdown-lock-command = "qs -p ~/.local/share/quickshell-lockscreen/lock_shell.qml"
+
+[modules.hyprland-workspaces]
+divider = ""
+app-icons-dedupe = false
+icon-gap = 0.0
+workspace-padding = 1.0
+workspace-ignore = ["-9?"]
+border-show = true
+
+[modules.network]
+border-show = true
+label-show = false
+
+[modules.notification]
+icon-name = "tb-bell-symbolic"
+border-show = true
+popup-max-visible = 6
+
+[modules.systray]
+item-gap = 0.75
+border-show = true
+border-color = "bg-active"
+
+[modules.volume]
+border-show = true
+label-show = false
