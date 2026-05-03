@@ -1,6 +1,7 @@
 bluetooth.service                  enabled disabled
 getty@.service                     enabled enabled
 greetd.service                     enabled disabled
+joycond.service                    enabled disabled
 NetworkManager-dispatcher.service  enabled disabled
 NetworkManager-wait-online.service enabled disabled
 NetworkManager.service             enabled disabled

@@ -60,6 +60,7 @@ dropdown-lock-command = "qs -p ~/.local/share/quickshell-lockscreen/lock_shell.q
 
 [modules.hyprland-workspaces]
 divider = ""
+app-icons-show = true
 app-icons-dedupe = false
 icon-gap = 0.0
 workspace-padding = 1.0

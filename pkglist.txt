@@ -38,7 +38,9 @@ hyprlauncher
 hyprpaper
 kitty
 kvantum
+less
 lf
+lib32-vulkan-radeon
 libnotify
 linux
 linux-firmware
@@ -94,6 +96,7 @@ ttf-roboto-mono
 unrar
 unzip
 vim
+vulkan-radeon
 which
 wl-clip-persist
 wlsunset

@@ -18,6 +18,7 @@ title = "Min"
 match_by = "title"
 size = "80% 70%"
 unfocus = "hide"
+lazy = false
 
 [scratchpads.line]
 animation = "fromTop"
