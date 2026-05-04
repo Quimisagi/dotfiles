@@ -1,3 +1,3 @@
-2026/05/03-10:56:04.804 634 Reusing MANIFEST /home/quimisagi/.config/kando/session/Local Storage/leveldb/MANIFEST-000001
-2026/05/03-10:56:04.810 634 Recovering log #3
-2026/05/03-10:56:04.818 634 Reusing old log /home/quimisagi/.config/kando/session/Local Storage/leveldb/000003.log 
+2026/05/04-20:42:11.086 641 Reusing MANIFEST /home/quimisagi/.config/kando/session/Local Storage/leveldb/MANIFEST-000001
+2026/05/04-20:42:11.101 641 Recovering log #3
+2026/05/04-20:42:11.102 641 Reusing old log /home/quimisagi/.config/kando/session/Local Storage/leveldb/000003.log 
