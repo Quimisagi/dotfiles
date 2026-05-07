@@ -11,6 +11,7 @@ gradia
 hhd
 hyprshot-gui
 hyprsome-git
+instagram-cli
 joycond-git
 kando-bin
 limitcpu

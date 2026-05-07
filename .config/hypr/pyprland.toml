@@ -31,8 +31,8 @@ unfocus = "hide"
 lazy = false
 
 [layout_center]
-margin = 30
-offset = [0, 30]
+margin = 40
+offset = [20, 20]
 next = "movefocus r"
 prev = "movefocus l"
 next2 = "movefocus d"
