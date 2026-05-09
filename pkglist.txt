@@ -10,6 +10,7 @@ brightnessctl
 btop
 chafa
 cmake
+cmus
 cpio
 discord
 dolphin-emu
@@ -64,6 +65,7 @@ opencode
 otf-font-awesome
 pacman-contrib
 papirus-icon-theme
+pavucontrol
 pcmanfm
 pipewire
 poppler
@@ -86,6 +88,7 @@ tesseract-data-jpn
 tesseract-data-kor
 tesseract-data-lat
 tesseract-data-spa
+thunderbird
 timeshift
 tmux
 trash-cli
